@@ -100,6 +100,7 @@ const router = createBrowserRouter([
       path: '/cohortSelector',
       element: <StudentCohortSelector />,
     },
+
     {
       path: '/unauthorized',
       element: <div className="min-h-screen bg-zinc-900 text-zinc-100 flex items-center justify-center">
